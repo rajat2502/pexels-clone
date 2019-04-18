@@ -1,0 +1,163 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: sans-serif;
+}
+
+a{
+  color: white;
+}
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+.header{
+  height: 70vh;
+  background: url("bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav{
+  padding:10px 25px ;
+  width: 100%;
+}
+.logo{
+  width: 2.5%;
+}
+
+.navright{
+  float: right;
+}
+
+.navright a{
+  padding-left: 20px;
+}
+
+.navright button{
+  background-color: #05a081;
+  border: none;
+  color: white;
+  border-radius: 2px;
+}
+
+.navright button:hover{
+  background-color: #21c3a3;
+}
+.content{
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content input{
+  width: 83%;
+  height: 14%;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.content button{
+  width: 15%;
+  height: 13%;
+  padding: 8px;
+  font-size: 20px;
+  background-color: #05a081;
+  background-color: #05a081;
+  border: none;
+  color: white;
+  border-radius: 2px;
+}
+
+.content button:hover{
+  background-color: #21c3a3;
+}
+
+.photos{
+  color: grey;
+  padding:1%;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  padding-right:1%;
+  padding-top:1%;
+}
+
+.row img{
+  width:24%;
+  height: 300px;
+  margin-left: 1%;
+}
+
+.row img:hover{
+  opacity: 0.6;
+}
+
+.footer{
+  height: 40vh;
+  margin-top: 30px;
+  background-color: #232a34;
+  padding-left: 100px;
+  padding-top: 50px;
+  color: #dddddd;
+}
+
+.footer>div{
+  display: inline-block;
+  width: 22vw;
+}
+
+.footer button{
+  color:black;
+  background-color: #dddddd;
+  border:none;
+  border-radius:3px;
+}
+
+.footer button:hover{
+  background-color: white;
+}
+
+.social-links a{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  color: #232a34;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.social-links i{
+  padding-top: 7px;
+}
+
+.social-links a:hover{
+  color: white;
+  background-color: black;
+}
+
+ul li{
+  list-style-type: none;
+  font-size: 15px;
+  color: #dddddd;
+}
+
+ul{
+  padding-left: 0 !important;
+}
+
+li:hover{
+  color: white;
+}
+
+.two li , .three{
+  font-size: 15px;
+}
