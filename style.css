@@ -161,3 +161,51 @@ li:hover{
 .two li , .three{
   font-size: 15px;
 }
+
+@media screen
+ and (max-device-width: 500px)
+ and (min-device-width: 320px) {
+  .logo{
+    width: 7%;
+  }
+  .content{
+    height: 25vh !important;
+  }
+  .content input{
+    width: 83%;
+    height: 18%;
+    padding: 8px;
+    font-size: 20px;
+  }
+
+  .content button{
+    width: 15%;
+    height: 17%;
+    padding: 8px;
+    font-size: 20px;
+    background-color: #05a081;
+    background-color: #05a081;
+    border: none;
+    color: white;
+    border-radius: 2px;
+  }
+  .header{
+    height: 30vh !important;
+  }
+  .navright,span{
+    font-size: 30px;
+  }
+  .content>p{
+    font-size: 28px;
+  }
+  .row img {
+    width: 48% !important;
+    height: 320px !important;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.footer{
+  height: 18vh !important;
+}
+
+}

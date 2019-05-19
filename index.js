@@ -7,8 +7,7 @@ $(document).ready(function(){
     if(title==''){
     alert("Please Enter Some Value Into The Input Box");
  }
-
-
+ 
   $.ajax({
 
     url : "https://pixabay.com/api/?key=12229910-f242d279c47a4d45d1de9b391&q="+title+"&image_type=photo",
@@ -30,26 +29,6 @@ $(document).ready(function(){
       $("#11").attr("src",data.hits[11].largeImageURL);
       $("#12").attr("src",data.hits[12].largeImageURL);
     }
-
-
-
-
   });
-
-
-
-
   });
-
-
-
-
-
-
-
-
-
-
-
-
 });
