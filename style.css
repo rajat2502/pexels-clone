@@ -14,7 +14,7 @@ a:hover{
 }
 .header{
   height: 70vh;
-  background: url("bg.jpeg");
+  background: url("image/bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
