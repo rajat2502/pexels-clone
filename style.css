@@ -86,13 +86,13 @@ nav{
   display: flex;
   justify-content: center;
   padding-right:1%;
-  padding-top:1%;
 }
 
 .row img{
   width:24%;
   height: 300px;
   margin-left: 1%;
+  margin-top: 1%;
 }
 
 .row img:hover{
@@ -161,6 +161,15 @@ li:hover{
 .two li , .three{
   font-size: 15px;
 }
+
+#loading{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: none;
+}
+
+
 
 @media screen
  and (max-device-width: 500px)
