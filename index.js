@@ -146,4 +146,14 @@ $(document).ready(function(){
 
 });
 
+// Slide out menu
+function openNav(){
+  if(document.getElementsByClassName('mobile__menu')[0].style.left=="-200px"){
+    document.getElementsByClassName('mobile__menu')[0].style.left="0px";
+  }
+  else
+{
+	document.getElementsByClassName('mobile__menu')[0].style.left="-200px";
+}
 
+}

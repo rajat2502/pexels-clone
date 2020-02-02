@@ -2,8 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width"> -->
+    <meta name="viewport" content="width=device-width">
     <title>Pexels</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="icon" href="image/logo.jpg">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -16,7 +18,9 @@
     <nav>
       <div class="">
         <a href="#"><img src="image/logo.jpg" alt="" class="logo"></a>
-        <span>&nbsp Pexels</span>
+        <span class="pexelsText" style="font-weight: bold;">&nbsp Pexels</span>
+
+        <i class="material-icons"  id="menu" onclick="openNav()" >menu</i> 
 
         <div class="navright">
           <a href="#">Explore</a>
@@ -24,17 +28,27 @@
           <a href="#">Join</a>
           <a href="#"><button type="button" name="button">Upload</button></a>
         </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile__menu">
+          <ul>
+         <li> <a href="#">Explore</a></li>
+          <li> <a href="#">License</a></li>
+            <li> <a href="#">Join</a></li>
+              <li><a href="#">Upload</a></li>
+        </div>
+
       </div>
     </nav>
 
     <div class="content">
-      <h2>The best free stock photos shared by talented creators.</h2>
+      <h2 style="font-weight: 1000; margin-left: 4%; margin-right:4%">The best free stock photos shared by talented creators.</h2>
       <br>
       <form class="" action="index.html" method="post">
         <input type="text" name="" value="" placeholder="Search for free photos" class="value">
         <button type="button" name="button" class="search"><i class="fas fa-search"></i></button>
       </form>
-      <p style="padding-top:6px;">Suggested : water  snow  hd background  sunny  free background  storm  more</p>
+      <p style="padding-top:6px; margin-left: 4%; margin-right:4%">Suggested : water  snow  hd background  sunny  free background  storm  more</p>
     </div>
   </section>
   <br>
@@ -151,16 +165,16 @@
     <footer>
       <div class="footer">
         <div class="one">
-          <a href="#"><img src="image/logo.jpg" alt="" class="logo" style="width:30px;"></a>
+          <a href="#"><img src="image/logo.jpg" alt="" class="logo" ></a>
           <span>&nbsp Pexels</span>
           <p>Beautiful free photos contributed by our <br> talented community.</p>
           <button type="button" name="button">Join For Free →</button>
           <br>
-          <br>
+          <br>  
 
           <div class="social-links">
             <a href="#" class=""><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class=""><i class="fab fa-twitter"></i></a>
+            <a href="#" class=""><i class="fab fa-twitter"></i></a> 
             <a href="#" class=""><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-medium"></i></a>
           </div>
